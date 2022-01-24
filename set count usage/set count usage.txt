@@ -1,0 +1,57 @@
+You manage a registration system in which people register their usernames at different times. 
+Your job is to say if the username that has been entered has already been entered yet or not. 
+
+Input
+The first line of input contains t (5 ≤ t ≤ 20), the number of usernames entered
+
+On the next t lines you will be given a string representing the username that was entered.
+
+Output
+At each moment output YES if the username was entered previously or NO if it was entered for the first time.
+
+ 
+
+Input
+
+6
+
+
+james123
+
+sebastian609
+
+james123
+
+garlic3
+
+james123
+
+sebastian609
+
+
+Output
+
+NO
+
+NO
+
+YES
+
+NO
+
+YES
+
+YES 
+
+
+For the first line of output, NO is outputted because james123 has not yet been entered.
+
+For the second line of output, NO is outputted because sebastian609 has not yet been entered.
+
+For the third line of output, YES is outputted because james123 was previously entered.
+
+For the fourth line of output, NO is outputted because garlic has not yet been entered.
+
+For the fifth line of output, YES is outputted bceause james123 was previously entered.
+
+For the last line of output, YES is outputted because sebastian609 was previously entered.
