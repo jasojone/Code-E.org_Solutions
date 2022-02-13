@@ -1,0 +1,16 @@
+Sting Matching
+ 
+
+Given a string a of size n, and a string b of size m, your job is to find if you can turn string a into string b by removing any character from string a as many times as you'd like.
+
+Input
+The first line of input contains t (1 ≤ t ≤ 10^3), the number of queries to answer.
+
+The first line of query contains n (1 ≤ n ≤ 10^4) and m (1 ≤ m ≤ n), the length of string a and the length of string b.
+
+On the next line you will receive the two strings, a and b.
+
+ 
+
+Output
+For each query, output "YES" if you can turn string a into string b by removing any character from string a as many times as you'd like and "NO" if it is impossible to do so.

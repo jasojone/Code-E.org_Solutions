@@ -1,0 +1,88 @@
+Clear The Game
+Mark is currently playing a video game with n levels. In order to pass the ith level, he must have at least ai strength. However, he has potions to help him clear this game. At the start of each level, he is able to purchase ONE potion that will permanently increase his strength by k. However the potion can cost different amounts of coins at the start of each level. At the start of each level, the strength potion costs bi. Mark wants to be able to complete the game with the minimum amount of coins spent.
+
+Input
+The first line of input contains three variables
+
+ n (1 ≤ n ≤ 10^4), the number of levels in the game
+
+ x (1 ≤ x ≤ 10^5), the initial strength that Mark has at the very beginning of the game
+
+ k (1 ≤ k ≤ 10^9), the amount that his strength increases after drinking a potion.
+
+ 
+
+On the next line there will be n numbers, each representing how much strength is required to pass the ith level (1 ≤ ai ≤ 10^9).
+
+On the final line there will be n numbers as well, they represent how many coins it costs to buy a potion at the start of that level (1 ≤ bi ≤ 10^9).
+
+Output
+Output the minimum amount of coins that Mark must spend to pass all of the levels in the game, if it is impossible to do so, then output -1.
+
+ 
+
+Input
+
+5 10 20
+
+10 30 30 40 20
+
+5 2 8 3 6
+
+ 
+
+ 
+
+Output
+
+5 
+
+ For level one, Mark already has enough strength (he starts at 10) to pass the next level.
+
+ For level two, Mark needs to buy a potion for 2 coins. Drinking a potion will increase his strength by 20 and put him at 30, exactly enough to pass the level.
+
+ For level three, Mark already has enough strength to pass the level and decides not to buy a potion because it costs 8 coins.
+
+ For level four, Mark needs to buy a potion for 3 coins. He is gains 20 strength and is now at 50 which is enough to pass the level.
+
+ For the final level Mark already has enough strength so he will not spend anything.
+
+ In total, he spent 5 coins to clear the game
+
+ 
+
+ 
+
+Input
+
+ 
+
+ 
+
+5 10 10
+
+10 40 30 30 20
+
+5 2 8 3 6
+
+ 
+
+ 
+
+Output
+
+ 
+
+ 
+
+-1
+
+ 
+
+ For level one, Mark has exactly enough strength to move on, but he decides to buy a potion to put him at 10 + 10 = 20 strength. 
+
+ For level two, Mark buys another potion and is now at 30 strength.
+
+ Despite drinking a strength potion before every possible level, Mark only has 30 strength but he needs 40 to clear level two.
+
+ Therefore, clearing the game is impossible.

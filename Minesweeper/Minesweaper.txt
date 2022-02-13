@@ -1,0 +1,48 @@
+Minesweeper
+ 
+
+You are given a board with n rows and m columns where any ' . ' makes a regular cell and any ' * ' marks a mine. For each regular cell, change its value to how many mines surround it from all eight directions.
+
+Input
+The first line contains n (1 ≤ n ≤ 50), and m (1 ≤ m ≤ 50) the number of rows and columns
+
+Next, there will be a n by m grid with either ' . ' or ' * '.
+
+Output
+Output the correct board for minesweeper where each regular cell is replaced with the number of mines that surround it. If zero mines surround a cell leave a '0' for that space.
+
+  
+
+Input
+
+ 
+
+ 
+
+3 5
+
+***..
+
+..**.
+
+**..*
+
+
+
+Output
+
+
+
+***31
+
+46**2
+
+**33*
+
+ 
+
+ 
+
+ 
+
+ 
